@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Hannele Janhonen - Contact</title>
+
+  <!-- Meta information -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="hannele, janhonen, hannele janhonen, web desing, websites, photographing, developer, concepts">
+  <meta name="description" content="The portfolio of Hannele Janhonen">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="Images/favicon.ico">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel|Handlee&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo">HANNELE JANHONEN</a>
+    <!-- Top Navigation -->
+    <div class="header-right">
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html">Projects</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about me.html">About me</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+  </div>
+
+  <div class="top-container">
+    <h1>Contact</h1>
+  </div>
+
+  <main>
+    <div class="middle-container">
+      <h3>Get in touch</h3>
+      <p class="intro">
+        I'm currently open for new projectes.
+        <br>
+        If you have a project that you want to get started or think you need my help with something get in touch.</p>
+      <br>
+      <br>
+      <a class="btn" href="mailto:hjanhonen@outlook.com">CONTACT ME</a>
+    </div>
+
+    <div class="contactForm">
+      <form name="myForm" action="mailto:hjanhonen@outlook.com" method="post" onSubmit="return validate_form();" onsubmit="myFunction();">
+
+        First name:<br>
+        <input type="text" name="fname" maxlength="25">
+        <br>
+        Last name:<br>
+        <input type="text" name="lname" maxlength="25">
+        <br>
+        Gender:<br>
+        <select name="gender">
+          <option value=""></option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <br>
+        Age:<br>
+        <input type="number" name="age" min="18" max="100">
+        <br>
+        Email:<br>
+        <input type="email" name="email" maxlength="50">
+        <br>
+        Website address:<br>
+        <input type="url" name="website" maxlength="50">
+        <br>
+        Your message:<br>
+        <textarea name="comments" rows="10" cols="30" maxlength="255"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+    </div>
+
+    <script src="JS/contact.js"></script>
+  </main>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://linkedin.com/in/hannele-janhonen" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://instagram.com/hannelejanhonen/?hl=fi" target="_blank">Instagram</a>
+    <p class="copyright">© 2020 Hannele Janhonen.</p>
+  </div>
+
+
+</body>
+
+</html>
