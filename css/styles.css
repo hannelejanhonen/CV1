@@ -1,0 +1,343 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto auto auto;
+  font-family: 'Handlee', cursive;
+  font-size: 5.625rem;
+  color: #ecfcff;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #5f6caf;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+/* header styles */
+.header {
+  overflow: hidden;
+  background-color: #5eb7b7;
+  padding: 2em 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.header a {
+  float: left;
+  color: #ecfcff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 25px;
+  border-radius: 4px;
+  position: sticky;
+}
+
+.header a.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: #719192;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+.header.icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links,
+except for the first one ("Home").
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .header a:not(:first-child) {display: none;}
+  .header a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+.top-container {
+  background-color: #5eb7b7;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.top-container-home {
+  background-color: #5eb7b7;
+  position: relative;
+  padding-top: 10px;
+  }
+
+.mountain-pic {
+  opacity: 0.8;
+  padding-bottom: 0;
+  }
+
+.middle-container {
+  margin: 150px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #5eb7b7;
+  padding: 50px 0 20px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+/* contact button */
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF !important;
+  font-size: 20px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top, #11CDD4, #11999E);
+  background: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top, #11CDD4, #11999E);
+}
+
+.btn:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(top, #30E3CB, #2BC4AD);
+  background: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+}
+
+.footer-link {
+  color: #ecfcff;
+  font-weight: normal;
+  padding-top:50px;
+}
+
+a.footer-link:hover {
+  color: #14396A ;
+}
+
+.copyright {
+  color: #11999E;
+  font-size: 0.65rem;
+  padding: 10px 0;
+}
+
+/* Styles to projects */
+.project-pic {
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+}
+
+.project-pic4 {
+  width: 30%;
+  height: 30%;
+  border-radius: 10px;
+}
+
+.project-pic5 {
+  width: 40%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+.project-intro {
+  width: 40%;
+  margin: auto;
+}
+
+.project-1 {
+  background-color: #719192;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+.project-2 {
+  background-color: #3c4245;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+.project-3 {
+  background-color: #5f6769;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+.project-4 {
+  background-color: #dfcdc3;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+.project-5 {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  color: white;
+}
+
+fieldset {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+
+/*styling contact page contact form*/
+
+.contactForm {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 50%;
+  margin:auto;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=url] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #5f6caf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset] {
+  width: 100%;
+  background-color: #5f6caf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=add] {
+  width: 100%;
+  background-color: #5f6caf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #5f6caf;
+}

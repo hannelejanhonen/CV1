@@ -1,0 +1,49 @@
+.about-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.about-me-row {
+  text-align: left;
+}
+
+.about-me-row-right {
+  text-align: right;
+}
+
+.about-me-pic1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10%;
+}
+
+.about-me-pic2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 10%;
+}
+
+.about-me-pic3 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10%;
+}
+
+.about-me-pic4 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 10%;
+}
+
+.about-me-pic5 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10%;
+}

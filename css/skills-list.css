@@ -1,0 +1,119 @@
+/*Skills styles*/
+ul li {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Removes bullets points */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.add-skill {
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+
+.skill-row {
+  text-align: left;
+}
+
+.skill-pic0 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 5%;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skill-pic1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5%;
+}
+
+.skill-pic2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 5%;
+}
+
+.skill-pic3 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5%;
+}
+
+.skill-pic4 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 5%;
+}
+
+.skill-pic5 {
+  width: 25%;
+  float: left;
+  margin-right:30px;
+  border-radius: 5%;
+}
+
+.skill-pic6 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 5%;
+}
+
+
+.skill0 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+  text-align: left;
+}
+
+.cv {
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 10%;
+  background: #5f6caf;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+a.cvLink:link, a.cvLink:visited {
+  background-color: #66BFBF;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.cvLink:hover, a.cvLink:active {
+  background-color:#719192;
+}
